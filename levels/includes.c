@@ -24,6 +24,7 @@ ROM_DATA const u16 *level_defines[][4] = {
    { problematic_l1_level_data, problematic_l2_level_data, problematic_spr_data, (u16 *) problematic_properties },
    { test_l1_level_data, test_l2_level_data, test_spr_data, (u16 *) test_properties },
    { test2_l1_level_data, test2_l2_level_data, test2_spr_data, (u16 *) test2_properties },
+   { Mariometry_l1_level_data, Mariometry_l2_level_data, Mariometry_spr_data, (u16 *) Mariometry_properties },
 };
 
 ROM_DATA const u8 *level_names[] = {
@@ -50,4 +51,5 @@ ROM_DATA const u8 *level_names[] = {
    problematic_name,
    test_name,
    test2_name,
+   Mariometry_name,
 };

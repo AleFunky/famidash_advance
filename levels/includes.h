@@ -219,6 +219,14 @@
 #include "test2/SP.h"
 #include "test2/properties.h"
 
-#define LEVEL_COUNT 23
+// Mariometry
+#define Mariometry_ID 23
+
+#include "Mariometry/l1.h"
+#include "Mariometry/l2.h"
+#include "Mariometry/SP.h"
+#include "Mariometry/properties.h"
+
+#define LEVEL_COUNT 24
 extern ROM_DATA const u16 *level_defines[][4];
 extern ROM_DATA const u8 *level_names[];
